@@ -1,7 +1,7 @@
 
 
 import re 
-path = "prueba1.txt"  #
+path = "prueba.txt"  #
 
 
 try:
@@ -10,7 +10,7 @@ except:
     print("El archivo no se encuentra")
     quit()
 
-texto = "prueba1.txt"
+texto = "prueba.txt"
 
 # busca las cadenas de caractere por linea
 for linea in archivo:
